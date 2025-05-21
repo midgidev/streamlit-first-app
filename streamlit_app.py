@@ -3,8 +3,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
-import locale
-locale.setlocale(locale.LC_TIME, 'es_ES.UTF-8')  # o 'es_MX.UTF-8' según tu sistema
+# import locale
+# locale.setlocale(locale.LC_TIME, 'es_ES.UTF-8')  # o 'es_MX.UTF-8' según tu sistema
 
 df = pd.read_csv('./data.csv')
 print(df.describe())
